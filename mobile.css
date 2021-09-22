@@ -1,0 +1,190 @@
+/*Main Home */
+#header{
+    width: 100%;   
+    background-image: url(./images/media_mobile-img1.png);
+}
+
+.gnb{
+    flex-direction: row;
+    line-height: 30px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.gnb li a{
+    font-size: 10px;
+    margin-left: 8px;
+ }
+
+ .TextLayout{
+     font-size: 20px;
+     line-height: 30px;
+     left: 10%;
+     top: 250%;
+ }
+
+ /*About section*/
+#About{
+    width: 100%;
+    height: auto;
+}
+
+#About h2{
+    font-size : 20px;
+    color : #444;
+    margin-top: 20px;
+}
+
+#About .animate__fadeOutRight{
+    display: none;
+}
+
+#About .wrap{
+    width: 100%;
+}
+
+.profileImg{
+    transform: none;
+    margin-left: 55px;
+}
+.profileImg img {
+    width: 150px;
+}
+.profileInfo{
+    transform: none;
+    float: none;
+    margin-left: 120px;
+    margin-bottom: 20px
+}
+.profileInfo h4{
+    font-size: 15px;
+}
+.profileInfo p{
+    font-size :10px;
+}
+
+/*skills section*/
+#skills{
+    width: 100%;
+    height: 80vh;
+}
+
+#skills h2{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.skill{
+    top: 25px;
+}
+
+.skill-name{
+    font-size:10px;
+}
+
+.skill-bar{
+    height: 10px;
+}
+.skill-per{
+    height: 10px;
+}
+.skill-per::before{
+    font-size: 10px;
+}
+
+/* portfolio section */
+#Portfolio{
+    width: 100%;
+    height: auto;
+}
+
+#Portfolio > h2{
+    font-size: 20px;
+    margin-top: 20px;
+} 
+
+#Portfolio .container{
+    margin: 0px;
+    height: auto;
+}
+
+.Sub_GNB {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  transform: none;
+  top: 50px;
+  left: 0;
+  font-size: 10px;
+  margin-bottom: 100px;
+}
+
+.Sub_GNB li{
+    display: inline-block;  
+    width: 100px;
+}
+
+.Sub_GNB li.active{
+    border-bottom: 3px solid #FF3535;
+    padding-bottom: 1px;
+}
+
+.box{
+    width: 100%;
+    height: auto;
+    margin: 20px 10px;
+    text-align: center;
+}
+
+.box img{
+    width: 200px;
+    height: 100px;
+}
+
+.tabPanel #work6{
+    position: relative;
+    left: 0;
+}
+
+.modal-content h2{
+    font-size: 15px;
+}
+
+/*footer section*/
+#footer{
+    width: 100%;
+}
+
+#footer h2{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.animate__fadeInUpBig{
+    display: none;
+}
+
+.contact{
+    padding: 50px;
+}
+
+.contact h3{
+    font-size: 15px;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+.contact span{
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+.copyright{
+    width: 100%;
+    padding: 15px;
+}
+
+.copyright p{
+    font-size: 10px;
+}
